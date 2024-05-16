@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Text Analyzer Tool</h1>
+        </header>
+        <main>
+            <section class="input-area">
+                <textarea id="text-input" placeholder="Enter your text here..."></textarea>
+                <button id="analyze-btn">Analyze Text</button>
+            </section>
+            <section class="results-area">
+                <h2>Analysis Results</h2>
+                <div class="results">
+                    <div>
+                        <span class="result-label">Words:</span>
+                        <span id="word-count">0</span>
+                    </div>
+                    <div>
+                        <span class="result-label">Characters:</span>
+                        <span id="char-count">0</span>
+                    </div>
+                    <div>
+                        <span class="result-label">Sentences:</span>
+                        <span id="sentence-count">0</span>
+                    </div>
+                    <div>
+                        <span class="result-label">Paragraphs:</span>
+                        <span id="paragraph-count">0</span>
+                    </div>
+                    <div>
+                        <span class="result-label">Longest Word:</span>
+                        <span id="longest-word"></span>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 Text Analyzer Tool by Rashed</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
