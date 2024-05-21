@@ -101,7 +101,7 @@ text-analyzer/
 ```
 
 ** Bug Fixes and Improvements**
-In the latest version of the Text Analyzer project, I have addressed and fixed several bugs, as well as implemented new features to enhance the user experience
+Need to fixes some error and bug 
 
 
 **Author**
